@@ -22,5 +22,17 @@ namespace StudentsApp_Danilkina
         {
             studentsBindingSource.DataSource = db.Students.ToList();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.db = db;
+            DialogResult dr = frm.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                studentsBindingSource.DataSource = db.Students.ToList();
+            }    
+
+        }
     }
 }

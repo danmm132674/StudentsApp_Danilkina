@@ -30,11 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.studentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gruppaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vozractDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.studentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -54,9 +55,16 @@
             this.dataGridView1.Size = new System.Drawing.Size(445, 201);
             this.dataGridView1.TabIndex = 0;
             // 
-            // studentsBindingSource
+            // button1
             // 
-            this.studentsBindingSource.DataSource = typeof(StudentsApp_Danilkina.Students);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(27, 271);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 35);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Добавить";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // iDDataGridViewTextBoxColumn
             // 
@@ -82,14 +90,19 @@
             this.vozractDataGridViewTextBoxColumn.HeaderText = "Vozract";
             this.vozractDataGridViewTextBoxColumn.Name = "vozractDataGridViewTextBoxColumn";
             // 
+            // studentsBindingSource
+            // 
+            this.studentsBindingSource.DataSource = typeof(StudentsApp_Danilkina.Students);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(501, 339);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Таблица Students";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).EndInit();
@@ -105,6 +118,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn gruppaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn vozractDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource studentsBindingSource;
+        private System.Windows.Forms.Button button1;
     }
 }
 
