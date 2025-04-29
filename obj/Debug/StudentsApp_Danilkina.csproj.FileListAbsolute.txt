@@ -1,0 +1,17 @@
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\bin\Debug\StudentsApp_Danilkina.exe.config
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\bin\Debug\StudentsApp_Danilkina.exe
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\bin\Debug\StudentsApp_Danilkina.pdb
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\bin\Debug\EntityFramework.dll
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\bin\Debug\EntityFramework.SqlServer.dll
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\bin\Debug\EntityFramework.xml
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\bin\Debug\EntityFramework.SqlServer.xml
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\bin\Debug\ru\EntityFramework.resources.dll
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.csproj.AssemblyReference.cache
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.csproj.SuggestedBindingRedirects.cache
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.Properties.Resources.resources
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.csproj.GenerateResource.cache
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.csproj.CoreCompileInputs.cache
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.csproj.CopyComplete
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.exe
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.pdb
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.Form1.resources
