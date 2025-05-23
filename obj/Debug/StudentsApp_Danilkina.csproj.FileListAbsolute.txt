@@ -15,3 +15,5 @@ Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\Stu
 Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.exe
 Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.pdb
 Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.Form1.resources
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.Form2.resources
+Z:\ямяу\Прога\StudentsApp_Danilkina\StudentsApp_Danilkina\obj\Debug\StudentsApp_Danilkina.Form3.resources

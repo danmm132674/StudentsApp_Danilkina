@@ -57,5 +57,9 @@ namespace StudentsApp_Danilkina
             }
         }
 
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

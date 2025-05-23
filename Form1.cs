@@ -34,5 +34,31 @@ namespace StudentsApp_Danilkina
             }    
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Students students = (Students)studentsBindingSource.Current;
+            DialogResult dr = MessageBox.Show(
+           "Вы действительно хотите удалить роль - " + students.ID.ToString(),
+           "Удаление роли", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+                db.Students.Remove(students);
+                try
+                {
+                    db.SaveChanges();
+                }
+                catch (Exception ex )
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                studentsBindingSource.DataSource = db.Students.ToList();
+            }
+        }
     }
 }

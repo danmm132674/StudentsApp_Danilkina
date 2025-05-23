@@ -47,31 +47,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(28, 229);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 31);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Сохранить";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(232, 230);
-            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 30);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Выйти";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // studentsBindingSource
-            // 
-            this.studentsBindingSource.DataSource = typeof(StudentsApp_Danilkina.Students);
-            // 
             // gruppaLabel
             // 
             gruppaLabel.AutoSize = true;
@@ -80,14 +55,6 @@
             gruppaLabel.Size = new System.Drawing.Size(78, 24);
             gruppaLabel.TabIndex = 6;
             gruppaLabel.Text = "Gruppa:";
-            // 
-            // gruppaTextBox
-            // 
-            this.gruppaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentsBindingSource, "Gruppa", true));
-            this.gruppaTextBox.Location = new System.Drawing.Point(143, 122);
-            this.gruppaTextBox.Name = "gruppaTextBox";
-            this.gruppaTextBox.Size = new System.Drawing.Size(183, 29);
-            this.gruppaTextBox.TabIndex = 7;
             // 
             // iDLabel
             // 
@@ -98,14 +65,6 @@
             iDLabel.TabIndex = 8;
             iDLabel.Text = "ID:";
             // 
-            // iDTextBox
-            // 
-            this.iDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentsBindingSource, "ID", true));
-            this.iDTextBox.Location = new System.Drawing.Point(143, 27);
-            this.iDTextBox.Name = "iDTextBox";
-            this.iDTextBox.Size = new System.Drawing.Size(183, 29);
-            this.iDTextBox.TabIndex = 9;
-            // 
             // nameLabel
             // 
             nameLabel.AutoSize = true;
@@ -115,14 +74,6 @@
             nameLabel.TabIndex = 10;
             nameLabel.Text = "Name:";
             // 
-            // nameTextBox
-            // 
-            this.nameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentsBindingSource, "Name", true));
-            this.nameTextBox.Location = new System.Drawing.Point(143, 74);
-            this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(183, 29);
-            this.nameTextBox.TabIndex = 11;
-            // 
             // vozractLabel
             // 
             vozractLabel.AutoSize = true;
@@ -131,6 +82,55 @@
             vozractLabel.Size = new System.Drawing.Size(78, 24);
             vozractLabel.TabIndex = 12;
             vozractLabel.Text = "Vozract:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(28, 229);
+            this.button1.Margin = new System.Windows.Forms.Padding(6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 31);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Сохранить";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(232, 230);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(94, 30);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Выйти";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // studentsBindingSource
+            // 
+            this.studentsBindingSource.DataSource = typeof(StudentsApp_Danilkina.Students);
+            // 
+            // gruppaTextBox
+            // 
+            this.gruppaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentsBindingSource, "Gruppa", true));
+            this.gruppaTextBox.Location = new System.Drawing.Point(143, 122);
+            this.gruppaTextBox.Name = "gruppaTextBox";
+            this.gruppaTextBox.Size = new System.Drawing.Size(183, 29);
+            this.gruppaTextBox.TabIndex = 7;
+            // 
+            // iDTextBox
+            // 
+            this.iDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentsBindingSource, "ID", true));
+            this.iDTextBox.Location = new System.Drawing.Point(143, 27);
+            this.iDTextBox.Name = "iDTextBox";
+            this.iDTextBox.Size = new System.Drawing.Size(183, 29);
+            this.iDTextBox.TabIndex = 9;
+            // 
+            // nameTextBox
+            // 
+            this.nameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentsBindingSource, "Name", true));
+            this.nameTextBox.Location = new System.Drawing.Point(143, 74);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(183, 29);
+            this.nameTextBox.TabIndex = 11;
             // 
             // vozractTextBox
             // 
@@ -156,9 +156,10 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form2";
             this.Text = "Добавление данных";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
